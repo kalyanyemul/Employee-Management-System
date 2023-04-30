@@ -1,0 +1,17 @@
+<div class="login-form">
+    <form>
+        <p class="text">Login Page</p>
+        <div class="content">
+            <div class="alert alert-danger " *ngIf="invalidLogin">{{errorMessage}}</div>
+            <div class="input-field">
+                <input type="text" name="username" [(ngModel)]="username">
+            </div>
+            <div class="input-field">
+                <input type="password" name="password" [(ngModel)]="password">
+            </div>
+        </div>
+        <div class="action">
+            <button style="background-color: #ece9b4;" (click)="handleLogin()" class="btn btn-success">LogIn</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,27 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+/* @import "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"; */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: blue;
+  text-align: center;
+  color: white;
+}
+
+.custom {
+  background-image: linear-gradient(90deg, #c389fd, #f5f5b5);
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+} */
